@@ -354,3 +354,8 @@ MigrationBackup/
 
 # Ignore launch settings
 /src/HaveIBeenPwned.PwnedPasswords.Downloader/Properties/launchSettings.json
+# HIBP password database files (very large, downloaded separately)
+pwnedpasswords_ntlm.txt
+pwnedpasswords_ntlm.txt.index*
+*.txt
+*.index*
